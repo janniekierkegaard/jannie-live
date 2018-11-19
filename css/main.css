@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+}
+
+.bgimg {
+    background-image: url("../img/Resized_20180502_113041001.svg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+}
